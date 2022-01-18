@@ -1,11 +1,10 @@
 Package: optimbase
 Type: Package
-Title: R port of the Scilab optimbase module
-Version: $version$
+Title: R Port of the 'Scilab' Optimbase Module
+Version: 1.0-10
 Date: $date$
-Author: Sebastien Bihorel, Michael Baudin (author of the original
-        module)
-Maintainer: Sebastien Bihorel <sb.pmlab@gmail.com>
+Authors@R: c(person("Sebastien","Bihorel",role=c("aut","cre"),email="sb.pmlab@gmail.com"),
+             person("Michael","Baudin",role=c("cph")))
 Description: Provides a set of commands to manage an abstract
         optimization method. The goal is to provide a building block
         for a large class of specialized optimization methods. This
@@ -14,5 +13,8 @@ Description: Provides a set of commands to manage an abstract
         constraints, the cost function, the logging system, various
         termination criteria, etc...
 Depends: Matrix, methods
-License: CeCILL-2
+Suggests: knitr (>= 1.28), rmarkdown (>= 2.2)
+License: file LICENSE
+Encoding: UTF-8
+VignetteBuilder: knitr
 LazyLoad: yes
