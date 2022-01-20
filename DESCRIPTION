@@ -4,7 +4,7 @@ Title: R Port of the 'Scilab' Optimbase Module
 Version: 1.0-10
 Date: $date$
 Authors@R: c(person("Sebastien","Bihorel",role=c("aut","cre"),email="sb.pmlab@gmail.com"),
-             person("Michael","Baudin",role=c("cph")))
+             person("Michael","Baudin",role=c("aut")))
 Description: Provides a set of commands to manage an abstract
         optimization method. The goal is to provide a building block
         for a large class of specialized optimization methods. This
